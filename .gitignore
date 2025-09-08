@@ -1,0 +1,21 @@
+# Eclipse / IntelliJ / VS Code metadata
+.metadata/
+.settings/
+.classpath
+.project
+.idea/
+*.iml
+.vscode/
+
+# Build outputs
+target/
+bin/
+out/
+
+# Logs & screenshots
+*.log
+ScreenShot/
+
+# OS junk files
+Thumbs.db
+.DS_Store

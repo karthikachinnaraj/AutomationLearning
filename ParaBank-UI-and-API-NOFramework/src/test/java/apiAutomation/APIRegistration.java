@@ -29,6 +29,11 @@ public class APIRegistration {
 				 .when()
 				 .post("customers");
 				 
+				 response.then()
+				 .body("id",notNullValu))
+				 .body("firstName", equalTo("John"))
+				 .body("lastName", equalTo("Doe")) 
+				 .body("username", equalTo("johndoe123"));
 				 System.out.println(response.getStatusCode());
 		
 		
